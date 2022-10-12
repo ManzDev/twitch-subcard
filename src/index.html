@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SubCard</title>
+  <link rel="stylesheet" href="./index.css">
+  <script type="module" src="./index.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <sub-card></sub-card>
+    <script>
+      const card = document.querySelector("sub-card");
+      setTimeout(() => card.flip(), 4000);
+      setTimeout(() => card.flip(), 8000);
+
+      /*
+      const text = new SpeechSynthesisUtterance("Hola Manz, me acabo de suscribir... hoy no podré comer, pero me he suscrito, tenlo en cuenta");
+      speechSynthesis.speak(text);
+      */
+    </script>
+  </div>
+
+</body>
+</html>

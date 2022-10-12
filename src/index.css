@@ -1,0 +1,11 @@
+body {
+  background: #223;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  margin-top: 10em;
+}
